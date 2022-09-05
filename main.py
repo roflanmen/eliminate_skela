@@ -12,6 +12,6 @@ async def main():
     async with app:
         async for message in app.search_messages(cid, limit=10000, from_user="skelauwu"): # spam skela, of course; limit - 10k messages
             print(message.text) # print to console
-            await message.react(emoji="😱") # react with emoji
+            await message.react(emoji="👎") # react with emoji
 
 asyncio.run(main())
