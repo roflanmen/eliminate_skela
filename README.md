@@ -17,6 +17,7 @@ Open your terminal and install some packages:
 
 Windows:
 pip install pyrogram
+
 pip install asyncio
 
 Linux users(user) are smart enough to install by themselves
